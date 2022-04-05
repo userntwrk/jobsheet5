@@ -1,3 +1,5 @@
+import 'dart:html';
+
 class Item {
   String name;
   int price;

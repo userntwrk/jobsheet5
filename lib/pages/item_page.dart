@@ -12,6 +12,10 @@ class ItemPage extends StatelessWidget {
       ),
       body: ListView(
         children: [
+          const Image(
+            image: NetworkImage(''),
+            alignment: Alignment.center,
+          ),
           Container(
             child: Text('Nama Item : ' + itemArgs.name),
             alignment: Alignment.center,
